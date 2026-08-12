@@ -140,9 +140,24 @@
    <br>
    <label for="email">Email <input type="text" name="email" id="email">
     <br>
-   <label for="phone">Nomor Telepon <input type="number" id="phone"> 
+   <label for="phone">Nomor Telepon <input type="phone" id="phone"> 
     <br>
-    <laber for=""
+    <select name="tiket" id="tiket">
+      <option>Pilih Tiket</option>
+      <option value="regular">Tiket Regular Rp500.000</option>
+      <option value="vip">Tiket VIP  Rp1.500.000</option>
+      <option value="viip">Tiket VVIP Rp3000.000</option>
+      </select>
+      <br>
+      <label for="number">Jumlah Tiket <input type="number" name="number" id="number" min="1" max="10">
+        <br>
+        <p>Pilih Kehadiran</p>
+        <input type="checkbox" id="day1" name="day_pass" value="day1"> <label for="day1">Day 1</label><br>
+        <input type="checkbox" id="day2" name="day_pass" value="day2"> <label for="day2">Day 2</label><br>
+        <input type="checkbox" id="day3" name="day_pass" value="day3"> <label for="day3">Day 3</label>
+        <br>
+        <button>Submit</button>
+      </label>
    </form>
   </section>
   </body>
