@@ -24,7 +24,6 @@
       <p>June 15-17, 2026 | Jakarta Internasional Expo</p>
       <ul>
         <li><a href="#gettickets">Get Tickets</a></li>
-
         </li>
       </ul>
     </main>
@@ -66,8 +65,10 @@
   <img src="assets/pamungkas.png" alt="lineup" width="300" height="300"><figcaption>Pamungkas - Line Up</figcaption>
 </figure>
 <br>
+
 <section id="schedule">
   <h2> Schedule</h2>
+  <table>
   <thead>
     <table border cellspacing="0" celpadding="5">
     <tr>
@@ -75,9 +76,7 @@
       <th>Artist/Kegiatan</th>
       <th>Stage</th>
     </tr>
-  </thead>
-  <tbody>
-  <table>
+   
     <th colspan "3">Day 1 - Monday, June 15, 2026</th>
     <tr>
       <td>15:00 - 16.30</td>
@@ -128,33 +127,30 @@
     <td>Feast</td>
     <td>Main Stage</td>
   </tr>
-</tbody>
-</table>
+  </tbody>
+  </table>
+</thead>
 
     <br>
   <section id="tickets">
     <form>
       <h2>Pembelian Tiket</h2>
    <table>
-    <br>
    <tr>
     <td><label for="nama">Nama Lengkap</td>
       <td>:</td>
       <td><input type="text" name="nama" id="nama" placeholder="Masukkan Nama Lengkap"></td>
     </tr>
-    <br>
    <tr>
     <td><label for="email">Email</td>
       <td>:</td>
       <td><input type="text" name="email" id="email" placeholder="Masukkan Email"></td>
     </tr>
-    <br>
 <tr>
    <td><label for="phone">Nomor Telepon</td>
     <td>:</td>
       <td><input type="phone" id="phone"></td>
     </tr>
-    <br>
     <tr>
       <td><label for="tiket">Pilih Tiket</label></td>
       <td>:</td>
@@ -166,13 +162,11 @@
       </select>
       </td>
       </tr>
-      <br>
       <tr>
       <td><label for="number">Jumlah Tiket </td>
         <td>:</td>
         <td><input type="number" name="number" id="number" min="1" max="10"></td>
       </tr>
-        <br>
         <tr>
           <td><label for="kehadiran">Pilih Keadiran</label></td>
           <td>:</td>
@@ -182,8 +176,6 @@
         <input type="checkbox" id="day3" name="day_pass" value="day3"> <label for="day3">Day 3</label>
         </td>
         </tr>
-        <br>
-      
         <td><button>Submit</button></td>
   </table>
       </label>
