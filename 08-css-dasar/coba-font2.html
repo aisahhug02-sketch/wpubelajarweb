@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coba CSS-Font Styling Pake Font Google</title>
+    <style>
+      @font-face {
+        font-family: Lobster;
+        src: url("fonts/LobsterTwo-Regular.ttf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+      h1 {
+        color: crimson;
+        font-size: 70px;
+        text-align: center;
+        font-family: "Bitcount", sans-serif;
+        font-weight: 300;
+      }
+
+      p {
+        color: navy;
+        text-align: center;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .font-lobster {
+        font-family: Lobster, arial, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis totam at
+      et commodi, nesciunt aut voluptatem minus aspernatur assumenda quibusdam?
+    </p>
+
+    <p class="font-lobster">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore omnis
+      excepturi eligendi nulla, deserunt ex.
+    </p>
+  </body>
+</html>
